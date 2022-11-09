@@ -1,0 +1,155 @@
+*,html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background:black;
+    --tulisan: white;
+    --header:rgb(134, 134, 134);
+}
+
+.terang{
+    --background:rgb(255, 255, 255);
+    --tulisan: rgb(0, 0, 0);
+    --header:rgb(223, 223, 223);
+
+}
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+li{
+    cursor: pointer;
+    list-style: none;
+}
+
+.background {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--tulisan) ;
+    height: 80vh;
+    width: 100%;
+  }
+
+.background img{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+
+.foto{
+    height: 60%;
+    width: 40%;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.header{
+    background-color: var(--header);
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--tulisan);
+    height: 100px;
+    width: 100%;
+}
+.header-logo{
+    color: var(--tulisan);
+    font-size: 40px;
+    font-style: italic;
+    float: left;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100% ;
+    width: 100%;
+}
+
+.header ul img{
+    height: 40px;
+    width: 40px;
+}
+
+.temp-logo{
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width:40%;
+}
+
+.footer{
+    background-color: var(--background);
+    height: 40%;
+    width: 100%;
+}
+
+.footer1{
+    padding-top: 2%;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    color: var(--tulisan);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.p1{
+    margin-left: 3%;
+}
+
+.icon{
+    margin-right: 3%;
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer2{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--tulisan);
+    margin-bottom: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p2{
+    margin-left: 3%;
+}
+
+.icon1{
+    height: 50px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.icon2{
+    height: 70px;
+    width: 250px;
+}
+
+.icon3{
+    height: 100px;
+    width: 350px;
+}
